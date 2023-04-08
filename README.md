@@ -28,4 +28,4 @@ This model was built for learning purposes. You can probably get better performa
 
 ## Credits
 - The text files were downloaded from [kaggle](https://www.kaggle.com/datasets/balabaskar/harry-potter-books-corpora-part-1-7)
-- I referenced this this [tutorial](https://www.youtube.com/watch?v=kCc8FmEb1nYhttps://www.youtube.com/watch?v=kCc8FmEb1nY) by Andrej Karpathy for some parts of the code
+- I referenced this [tutorial](https://www.youtube.com/watch?v=kCc8FmEb1nYhttps://www.youtube.com/watch?v=kCc8FmEb1nY) by Andrej Karpathy for some parts of the code
