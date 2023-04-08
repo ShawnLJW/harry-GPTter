@@ -6,8 +6,8 @@ from dataclasses import dataclass
 
 @dataclass
 class ModelConfig:
-    block_size: int = 256
-    vocab_size: int = 65
+    block_size: int = 128
+    vocab_size: int = 50280
     n_layer: int = 8
     n_head: int = 8
     n_embd: int = 384
