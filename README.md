@@ -16,6 +16,8 @@ harry-GPoTter is a transformer text generation model implemented in PyTorch. It 
 >
 > “And now blimey,” said Harry, “it was a very serious for an enormous mother. ...”
 
+Download the [weights](https://huggingface.co/ShawnLJW/harry-GPoTter/resolve/main/checkpoint.pt) which are available from hugging space and drag them into the checkpoints folder.
+
 Generate samples with
 
 ``` {bash}
@@ -40,5 +42,5 @@ This model was built for learning purposes. You can probably get better performa
 
 ## Credits
 
-- The text files were downloaded from [kaggle](https://www.kaggle.com/datasets/balabaskar/harry-potter-books-corpora-part-1-7)
+- The text files that the model was trained on were downloaded from [kaggle](https://www.kaggle.com/datasets/balabaskar/harry-potter-books-corpora-part-1-7)
 - I referenced this [tutorial](https://www.youtube.com/watch?v=kCc8FmEb1nYhttps://www.youtube.com/watch?v=kCc8FmEb1nY) by [Andrej Karpathy](https://github.com/karpathy) for some parts of the code
