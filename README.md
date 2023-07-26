@@ -1,10 +1,10 @@
-# harry-GPoTter
+# harry-GPTter
 
 ![AI-generated Harry Potter Thumbnail](assets/thumbnail.jpg)
 
-harry-GPoTter is a transformer text generation model implemented in PyTorch. It has been trained on text from all 7 books from from all 7 books of the Harry Potter series. In only 10 minutes of training with the free tier of [Google Colaboratory](https://colab.research.google.com/), the model learnt to generate coherent and grammatically correct sentences.
+harry-GPTter is a transformer text generation model implemented in PyTorch. It has been trained on text from all 7 books from from all 7 books of the Harry Potter series. In only 10 minutes of training with the free tier of [Google Colaboratory](https://colab.research.google.com/), the model learnt to generate coherent and grammatically correct sentences.
 
-## Text Generation with harry-GPoTter
+## Text Generation with harry-GPTter
 
 > “Ah,” said Mrs. Weasley, hiscolored lips looking unpleasant. “He wasn’t talking about her, he has tried to think he was saying he had looked up. The bleers were flooding.”
 >
@@ -16,7 +16,7 @@ harry-GPoTter is a transformer text generation model implemented in PyTorch. It 
 >
 > “And now blimey,” said Harry, “it was a very serious for an enormous mother. ...”
 
-Download the [weights](https://huggingface.co/ShawnLJW/harry-GPoTter/resolve/main/checkpoint.pt) which are available from hugging space and drag them into the checkpoints folder.
+Download the [weights](https://huggingface.co/ShawnLJW/harry-GPTter/resolve/main/checkpoint.pt) which are available from hugging space and drag them into the checkpoints folder.
 
 Generate samples with
 
@@ -32,7 +32,7 @@ python generate.py --help
 
 ## Model Details
 
-harry-GPoTter is a relatively small language model with 56M parameters (less than 1/2x of smallest gpt-2). It contains 8 layers of 8 headed attention with a hidden size of 384. It supports a maximum sequence length of 128. For tokenization, we use the same tokenizer as text-davinci-003, which has a vocabulary of 50,280 in total.
+harry-GPTter is a relatively small language model with 56M parameters (less than 1/2x of smallest gpt-2). It contains 8 layers of 8 headed attention with a hidden size of 384. It supports a maximum sequence length of 128. For tokenization, we use the same tokenizer as text-davinci-003, which has a vocabulary of 50,280 in total.
 
 The model was trained for 2000 epochs in about 10 minutes with the free tier of Google Colab GPU Runtime. It achieves a cross-entropy loss of 3.1189.
 
